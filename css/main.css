@@ -1,0 +1,55 @@
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
+.buttonAddMore {
+    border: 1px solid #b5b2af;
+    background: #ffffff;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 150px;
+    height: 35px;
+}
+
+.buttonAddMore:hover {
+    background: #b5b2af;
+}
+
+.textAddMore {
+    color: #b5b2af;
+}
+
+.textAddMore:hover {
+    color: #ffffff;
+}
+
+.modalContentCenter{
+    margin-top: 50%;
+}
+
+.modalBackground{
+    backdrop-filter: blur(5px);
+}
+
+.nameBlock{
+    border: none;
+    outline: none;
+    border-bottom: solid 1px #b5b2af;    
+    margin-left: 30%;
+}
+
+.modalBlockName{
+    padding: 0 0 30px;
+}
+
+.qqq,
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ .qqq {
+    display: contents;
+}
